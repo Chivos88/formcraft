@@ -1,0 +1,16 @@
+{
+  "name": "formcraft",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@12.16.1",
+  "devEngines": {
+    "packageManager": { "name": "pnpm", "version": "12.16.1", "onFail": "download" }
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
